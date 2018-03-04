@@ -346,7 +346,7 @@ class Graph
 				serialadd(ds,addin,block,timecount);
 			if(METHOD==0)
 			{
-				while(ds[0].size()>0||ds[1].size()>0)
+				//while(ds[0].size()>0||ds[1].size()>0)
 						ds=greedy(ds,addin,block,timecount);
 			}
 			//cout<<"asd"<<endl;

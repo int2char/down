@@ -237,9 +237,9 @@ class PBellmanor:public algbase{
 					for(int k=L[y-1];k<L[y];k++)
 					{
 						int tnode=-1;
-						vector<int>d(nodenum,INT_MAX/2);
 						for(int l=0;l<stpairs[y-1].size();l++)
 						{	
+							vector<int>d(nodenum,INT_MAX/2);
 							int s=stpairs[y-1][l].s;
 							set<int>ts=stpairs[y-1][l].ts;
 							vector<int>ters=stpairs[y-1][l].ters;
@@ -268,6 +268,7 @@ class PBellmanor:public algbase{
 							//dijkstra(s,s,d,p+off,neie[k],nein[k],neieid[k],esigns[k],nodenum,WD,ts,size);
 							for(int i=0;i<ters.size();i++)
 							{
+								//cout<<"fuckinggggggggggggggggggggggggggggggggggggggggggggggggggg "<<i<<endl;
 								vector<int>rout;
 								int hop=0;
 								int tt=ters[i];
@@ -278,6 +279,8 @@ class PBellmanor:public algbase{
 									if(d[tt+i*pnodesize]<min)
 									{	
 										min=d[tt+i*pnodesize];
+										//cout<<tt+i*pnodesize<<endl;
+										//cout<<"min min is "<<" "<<off<<" "<<off+tt+i*pnodesize<<" "<<p[off+tt+i*pnodesize]<<endl;
 										prn=tt+i*pnodesize;
 									}
 								}
@@ -286,8 +289,8 @@ class PBellmanor:public algbase{
 								int di=d[prn];
 								int id=stpairs[y-1][l].mmpid[ters[i]];
 								int node=tt;
-								/*cout<<"dist is "<<prn<<" "<<"t is "<<tt<<" "<<d[prn]<<endl;
-								while(node!=s)
+								//cout<<"s is "<<s<<" dist is "<<prn<<" "<<"t is "<<tt<<" "<<d[prn]<<endl;
+								/*while(node!=s)
 								{
 									
 									int eid;
