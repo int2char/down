@@ -123,23 +123,6 @@ void Bellmanor::init(pair<vector<edge>,vector<vector<int>>>ext,vector<pair<int,i
 			}
 		}
 	int count=0;
-	/*for(int k=0;k<LY;k++)
-		for(int i=0;i<nodenum;i++)
-			for(int j=0;j<neibn[i].size();j++)
-			{
-				st[count]=i;
-				if(esigns[k][neie[i][j]]<0)
-					te[count]=i;
-				else
-					te[count]=neibn[i][j];
-				count++;
-			}*/
-	//int cc=0;
-	//for(int k=0;k<LY;k++)
-		//for(int i=0;i<edges.size();i++)
-			//w[cc++]=esigns[k][i];
-	//cudaMalloc((void**)&dev_st,LY*edges.size()*sizeof(int));
-	//cudaMalloc((void**)&dev_te,LY*edges.size()*sizeof(int));
 	
 	cudaMalloc((void**)&dev_d,YE*LY*nodenum*sizeof(int));
 	cudaMalloc((void**)&dev_p,YE*LY*nodenum*sizeof(int));

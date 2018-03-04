@@ -208,19 +208,20 @@ class PBellmanor:public algbase{
         	esigns=extenedges.second;
         	edgesize=edges.size();
         	nodenum=_nodenum;
+        	pnodesize=nodenum/NUT;
 			W=WD+1;
 			for(int k=0;k<LY;k++)
 			{
-				vector<vector<int>>tmpn(nodenum,vector<int>());
-				vector<vector<int>>tmpe(nodenum,vector<int>());
-				vector<vector<int>>tmpeid(nodenum,vector<int>());
+				vector<vector<int>>tmpn(pnodesize,vector<int>());
+				vector<vector<int>>tmpe(pnodesize,vector<int>());
+				vector<vector<int>>tmpeid(pnodesize,vector<int>());
 				for(int i=0;i<edges.size();i++)
 					{
 						int s=edges[i].s;
 						int t=edges[i].t;
-						tmpn[s].push_back(t);
-						tmpe[s].push_back(esigns[k][i]);
-						tmpeid[s].push_back(i);
+						tmpn[t].push_back(s);
+						tmpe[t].push_back(esigns[k][i]);
+						tmpeid[t].push_back(i);
 					}
 				neie.push_back(tmpe);
 				nein.push_back(tmpn);
@@ -230,44 +231,75 @@ class PBellmanor:public algbase{
 
         }
         virtual vector<vector<Rout>> routalg(int s,int t,int bw){
-        		//cout<<"in bellman rout alg"<<endl;
-        		//time_t start,end;
-        		//start=clock();
         		vector<vector<Rout>>result(2,vector<Rout>());
         		int ncount=0;
-        		vector<int>d(nodenum,0);
         		for(int y=1;y<PC+1;y++)
 					for(int k=L[y-1];k<L[y];k++)
 					{
 						int tnode=-1;
-						vector<int>d(nodenum,INT_MAX);
+						vector<int>d(nodenum,INT_MAX/2);
 						for(int l=0;l<stpairs[y-1].size();l++)
 						{	
-							int s=stpairs[y-1][l].s*(NUT);
+							int s=stpairs[y-1][l].s;
 							set<int>ts=stpairs[y-1][l].ts;
 							vector<int>ters=stpairs[y-1][l].ters;
 							int size=stpairs[y-1][l].size;
 							int off=ncount*nodenum;
-							dijkstra(s,s,d,p+off,neie[k],nein[k],neieid[k],esigns[k],nodenum,WD,ts,size);
+							int neioff=pnodesize;
+							d[s]=0;
+							for(int kk=1;kk<=WD;kk++)
+							{
+								for(int i=0;i<pnodesize;i++)
+								{
+									for(int m=0;m<nein[k][i].size();m++)
+									{
+										if(neie[k][i][m]>0)
+										{
+											if(neie[k][i][m]+d[neioff-pnodesize+nein[k][i][m]]<d[neioff+i])
+												{
+												 d[neioff+i]=neie[k][i][m]+d[neioff-pnodesize+nein[k][i][m]];
+												 p[off+neioff+i]=neieid[k][i][m];
+												}
+										}
+									}
+								}
+								neioff+=pnodesize;
+							}
+							//dijkstra(s,s,d,p+off,neie[k],nein[k],neieid[k],esigns[k],nodenum,WD,ts,size);
 							for(int i=0;i<ters.size();i++)
 							{
 								vector<int>rout;
 								int hop=0;
 								int tt=ters[i];
-								int min=INF;
+								int min=10000;
 								int prn=-1;
 								for(int i=1;i<W;i++)
 								{
-									if(d[tt*W+i]<min)
+									if(d[tt+i*pnodesize]<min)
 									{	
-										min=d[tt*W+i];
-										prn=tt*W+i;
+										min=d[tt+i*pnodesize];
+										prn=tt+i*pnodesize;
 									}
 								}
 								if(prn<0)continue;
+								int offf=prn-tt+off;
 								int di=d[prn];
 								int id=stpairs[y-1][l].mmpid[ters[i]];
-								Rout S(s,prn,id,min,off,k);
+								int node=tt;
+								/*cout<<"dist is "<<prn<<" "<<"t is "<<tt<<" "<<d[prn]<<endl;
+								while(node!=s)
+								{
+									
+									int eid;
+									cout<<"what is it:"<<node+offf<<endl;
+									eid=p[node+offf];
+									cout<<eid<<endl;
+									offf-=pnodesize;
+									node=edges[eid].s;
+								}
+								cout<<endl;
+								cout<<"return "<<endl;*/
+								Rout S(s,tt,id,min,offf,k);
 								result[y-1].push_back(S);
 							}
 							ncount++;
@@ -276,6 +308,7 @@ class PBellmanor:public algbase{
         		//end=clock();
         		//cout<<"cpu time is: "<<end-start<<endl;
         		//cout<<"good sofor"<<endl;
+        		cout<<"return successful"<<endl;
         		return result;
 	 	}
         /*vector<vector<int>> allroutes(int k)
@@ -607,24 +640,8 @@ class PBFSor:public algbase{
 					}
 				}
 			end=clock();
-			//cout<<"cpu time is: "<<end-start<<endl;
-			//cout<<"good sofor"<<endl;
 			return result;
 	 	}
-        /*vector<vector<int>> allroutes(int k)
-        {
-        	vector<vector<int>>result;
-        	for(int i=0;i<nodenum;i++)
-        	{
-				vector<int>d(nodenum,INT_MAX);
-				memset(p,-1,nodenum*sizeof(int));
-				set<int>ts;
-				int size=nodenum;
-				BFS(i,i,d,p,neie[k],nein[k],neieid[k],esigns[k],ts,size,WD);
-				result.push_back(d);
-        	}
-        	return result;
-        }*/
         pair<int,vector<int>> tunel(int s,int t,int k,int m=0){
 	 		int tnode=-1;
 			int tv=WD+1;

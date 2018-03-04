@@ -113,17 +113,11 @@ class Graph
 					{
 						int eid=delevent[h][i].second;
 						int k=delevent[h][i].first;
-						if(IFHOP<1)
-							esignes[k][eid]*=-1;
-						if(IFHOP==1)
-						{
-							eid=(eid/WD)*WD;
-							for(int j=0;j<WD;j++)
-								esignes[k][eid+j]*=-1;
-							release++;
-						}
+						esignes[k][eid]*=-1;
+
 					}
 					router2.updatE(esignes);
+					router1.updatE(esignes);
         		}
         		if(addevent[current].first>0)
         		{
@@ -215,13 +209,22 @@ class Graph
         	vector<vector<Sot>>stpair=Getspair(ds);
         	time_t startu=clock();
         	//cout<<"get pair: "<<startu-starty<<endl;
-			router2.updatS(stpair);
-			router2.updatE(esignes);
+        	if(PARAL>0)
+			{router2.updatS(stpair);
+			router2.updatE(esignes);}
+        	else
+        	{
+        		router1.updatS(stpair);
+        		router1.updatE(esignes);
+        	}
 			time_t endu=clock();
 			//cout<<"updating time: "<<endu-startu<<endl;
 			time_t startro=clock();
 			vector<vector<Rout>> result;
-			result=router2.routalg(0,0,0);
+			if(PARAL>0)
+				result=router2.routalg(0,0,0);
+			else
+				result=router1.routalg(0,0,0);
 			time_t endro=clock();
 			cout<<"rout alg time: "<<endro-startro<<endl;
 			vector<vector<demand>>remain(PC,vector<demand>());
@@ -281,7 +284,11 @@ class Graph
 								{
 									
 									int eid;
-									eid=router2.p[node+offf];
+									if(PARAL>0)
+										eid=router2.p[node+offf];
+									else
+										eid=router1.p[node+offf];
+									//cout<<eid<<" ";
 									offf-=n;
 									if(esignes[ly][eid]<0)
 									{
@@ -292,6 +299,7 @@ class Graph
 									rout.push_back(eid);
 									node=edges[eid].s;
 								}
+								//cout<<endl;
 								if(ff<0)continue;
 								for(int i=0;i<rout.size();i++)
 										{
@@ -608,6 +616,7 @@ class Graph
             //cout<<"init ing"<<endl;
             edges=redges;
             router2.init(make_pair(redges,esigns),stpair,n*W);
+            router1.init(make_pair(redges,esigns),stpair,n*W);
            // cout<<"init end"<<endl;
             return make_pair(redges,esigns);
         };

@@ -22,6 +22,12 @@ int main(int args,char*arg[])
 				  g.run(0.2,lambda,OBNUM,0,1);
 				  break;
 		  }
+		  case 'P':
+		  		  {
+		  				  cout<<"parall relaize:"<<endl;
+		  				  g.run(0.2,lambda,OBNUM,0,0);
+		  				  break;
+		  		  }
 	  }
 	cout<<"*******************************************************************************"<<endl;
 	cout<<endl;
