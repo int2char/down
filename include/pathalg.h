@@ -231,8 +231,8 @@ class PBellmanor:public algbase{
         }
         virtual vector<vector<Rout>> routalg(int s,int t,int bw){
         		//cout<<"in bellman rout alg"<<endl;
-        		time_t start,end;
-        		start=clock();
+        		//time_t start,end;
+        		//start=clock();
         		vector<vector<Rout>>result(2,vector<Rout>());
         		int ncount=0;
         		vector<int>d(nodenum,0);
@@ -273,7 +273,7 @@ class PBellmanor:public algbase{
 							ncount++;
 						}
 					}
-        		end=clock();
+        		//end=clock();
         		//cout<<"cpu time is: "<<end-start<<endl;
         		//cout<<"good sofor"<<endl;
         		return result;

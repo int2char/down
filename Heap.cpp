@@ -15,6 +15,8 @@ void Heap::fix(int fixID){
 }
 Heap::Heap(int n):h(n+1,Edge(0,0)),post(n+1,0){
 	nodeNum=0;
+	NUM=n;
+	COUNT=0;
 }
 void Heap::push(int vertID, int w){
 	nodeNum++;
@@ -27,10 +29,12 @@ void Heap::update(int vertID, int w){
 	int p=post[vertID];
 	h[p].weight = w;
 	fix(p);
+	COUNT++;
 }
 int Heap::pop(){
 	int ret=h[1].head;
 	h[1]=h[nodeNum--];
+	COUNT--;
 	if(nodeNum>0)
 		post[h[1].head]=1;
 	int cur=1;
@@ -49,7 +53,7 @@ int Heap::pop(){
 	return ret;
 }
 int Heap::empty(){
-	if (nodeNum <= 0)
+	if (nodeNum<=0)
 		return 1;
 	else
 		return 0;

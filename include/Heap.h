@@ -15,6 +15,8 @@ private:
 	vector<Edge> h;
 	vector<int> post;
 	int nodeNum;
+	int COUNT;
+	int NUM;
 	void fix(int fixID);
 };
 
