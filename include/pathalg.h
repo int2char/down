@@ -30,7 +30,7 @@
 	#define IFHOP 0
 #endif
 #ifndef OBNUM
-	#define OBNUM 5000
+	#define OBNUM 10
 #endif
 
 #define PC 2
@@ -38,8 +38,8 @@
 #define LY2 ((LY/4)*3)
 #define YE NODE
 #define inf INT_MAX/2
-#define INF 100000
-#define NUT ((IFHOP>0)?(WD+1):1)
+#define INF 10000
+#define NUT ((WD+1))
 using namespace std;
 struct event{
 	int fuhao;
