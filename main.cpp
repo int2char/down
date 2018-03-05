@@ -23,11 +23,24 @@ int main(int args,char*arg[])
 				  break;
 		  }
 		  case 'P':
-		  		  {
-		  				  cout<<"parall relaize:"<<endl;
-		  				  g.run(0.2,lambda,OBNUM,0,0);
-		  				  break;
-		  		  }
+		  {
+				  cout<<"p relaize:"<<endl;
+				  g.run(0.2,lambda,OBNUM,0,0);
+				  break;
+		  }
+		  case 'S':
+		  {
+				  cout<<"s relaize:"<<endl;
+				  g.run(0.2,lambda,OBNUM,1,0);
+				  break;
+		  }
+		  case 'G':
+		  {
+				  cout<<"g relaize:"<<endl;
+				  g.run(0.2,lambda,OBNUM,2,0);
+				  break;
+		  }
+		  
 	  }
 	cout<<"*******************************************************************************"<<endl;
 	cout<<endl;

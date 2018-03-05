@@ -306,7 +306,7 @@ class Graph
 												int eid=rout[i];
 												esignes[ly][eid]*=-1;
 										}
-								flag=rout.size();
+								flag=1;//rout.size();
 								nde.rout=rout;
 								nde.mark=ly;
 								nde.value=wv;
@@ -314,9 +314,11 @@ class Graph
 								break;
 						}
 						if(flag==0){
+								cout<<nde.id<<" "<<nde.s<<" "<<nde.t<<endl;
 								int nid=newid++;
 								demand dd(nde.s,nde.t,nid,nde.sert);
-								remain[k].push_back(dd);		
+								remain[k].push_back(dd);
+								
 						}
 				}
 			}
@@ -340,14 +342,15 @@ class Graph
 			vector<demand>addin;
 			double timecount=0;
 			//cout<<"wht"<<endl;
+			//cout<<"method is "<<METHOD<<endl;
 			if(METHOD==2)
 				sortadd(ds,addin,block,timecount);
 			if(METHOD==1)
 				serialadd(ds,addin,block,timecount);
 			if(METHOD==0)
 			{
-				//while(ds[0].size()>0||ds[1].size()>0)
-						ds=greedy(ds,addin,block,timecount);
+				while(ds[0].size()>0||ds[1].size()>0)
+							ds=greedy(ds,addin,block,timecount);
 			}
 			//cout<<"asd"<<endl;
 			times.push_back(timecount);
@@ -372,10 +375,10 @@ class Graph
 			average.push_back((double)count/(double)addin.size());
 			averhops.push_back((double)hops/(double)addin.size());
 			blocks.push_back(block.size());
-			cout<<"add in rout cost is "<<count<<endl;
-			cout<<"add in is "<<addin.size()<<endl;
-			cout<<"remain size"<<ds[0].size()+ds[1].size()<<endl;
-			cout<<"block size "<<block.size()<<endl;
+			//cout<<"add in rout cost is "<<count<<endl;
+			//cout<<"add in is "<<addin.size()<<endl;
+			//cout<<"remain size"<<ds[0].size()+ds[1].size()<<endl;
+			//cout<<"block size "<<block.size()<<endl;
 			//cout<<"time is"<<end-start<<endl;
 		}
         void serialadd(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double&timecount)
@@ -402,20 +405,10 @@ class Graph
         							{
                 						int eid=ds[y-1][i].rout[l];
         								w+=esignes[k][eid];
-                						if(IFHOP<1)
-                							esignes[k][eid]*=-1;
-                						if(IFHOP==1)
-                						{
-                							eid=(eid/WD)*WD;
-                							for(int j=0;j<WD;j++)
-                								esignes[k][eid+j]*=-1;
-                							busy++;
-                						}
+                						esignes[k][eid]*=-1;
         							}
-        						//router1.updatE(esignes);
         						ds[y-1][i].mark=k;
         						ds[y-1][i].value=w;
-        						//cout<<"value is "<<w<<endl;
         						addin.push_back(ds[y-1][i]);
         						flag=1;
         						break;
@@ -435,8 +428,6 @@ class Graph
        			router1.updatE(esignes);
                	vector<int>L(3,0);
                	L[0]=0;L[1]=LY1;L[2]=LY2+LY1;
-               	//vector<priority_queue<pair<demand,int>,vector<pair<demand,int>>,mmmp>>order(PC,priority_queue<pair<demand,int>,vector<pair<demand,int>>,mmmp>());
-               //	cout<<"............................"<<endl;
                	for(int y=0;y<PC;y++)
                	{
                		for(int i=0;i<ds[y].size();i++)
@@ -444,19 +435,14 @@ class Graph
                			int s=ds[y][i].s;
                			int t=ds[y][i].t;
 						pair<int,vector<int>>dd=router1.tunel(s,t,L[y],1);
-						//cout<<s<<" "<<t<<" "<<dd.first<<endl;
        					ds[y][i].estimate=dd.first;
        					ds[y][i].rout=dd.second;
                		}
                	}
-               	//cout<<"cac fin"<<endl;
                	sort(ds[0].begin(),ds[0].end(),mmmp());
                	sort(ds[1].begin(),ds[1].end(),mmmp());
-               	//cout<<ds[0][0].estimate<<endl;
-               	//cout<<ds[1][0].estimate<<endl;
                	for(int y=1;y<PC+1;y++)
                		{
-               			//cout<<"yyy:"<<y<<endl;
                			for(int i=0;i<ds[y-1].size();i++)
                			{
                				int s=ds[y-1][i].s;
@@ -478,14 +464,7 @@ class Graph
 										{
 											int eid=rout[l];
 											w+=esignes[L[y-1]][eid];
-											if(IFHOP<1)
-												esignes[L[y-1]][eid]*=-1;
-											if(IFHOP==1)
-											{
-												eid=(eid/WD)*WD;
-												for(int j=0;j<WD;j++)
-													esignes[L[y-1]][eid+j]*=-1;
-											}
+											esignes[L[y-1]][eid]*=-1;
 										}
 									router1.updatR(L[y-1],rout);
 									ds[y-1][i].mark=L[y-1];
@@ -506,14 +485,7 @@ class Graph
 												{
 													int eid=ds[y-1][i].rout[l];
 													w+=esignes[k][eid];
-													if(IFHOP<1)
-														esignes[k][eid]*=-1;
-													if(IFHOP==1)
-													{
-														eid=(eid/WD)*WD;
-														for(int j=0;j<WD;j++)
-															esignes[k][eid+j]*=-1;
-													}
+													esignes[k][eid]*=-1;
 												}
 											ds[y-1][i].mark=k;
 											ds[y-1][i].value=w;

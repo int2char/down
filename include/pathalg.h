@@ -183,18 +183,10 @@ class PBellmanor:public algbase{
         	L[2]=LY;
         }
 	 	virtual void updatR(int k,vector<int>&rout){
-        	//cout<<"in updat R"<<endl;
 	 		for(int i=0;i<rout.size();i++)
 	 			{
 					int eid=rout[i];
-					if(IFHOP<1)
-						esigns[k][eid]*=-1;
-					if(IFHOP==1)
-					{
-						eid=(eid/WD)*WD;
-						for(int j=0;j<WD;j++)
-							esigns[k][eid+j]*=-1;
-					}
+					esigns[k][eid]*=-1;
 	 			}
 	 	};
         void topsort()
@@ -253,7 +245,7 @@ class PBellmanor:public algbase{
 								{
 									for(int m=0;m<nein[k][i].size();m++)
 									{
-										if(neie[k][i][m]>0)
+										if(esigns[k][neieid[k][i][m]]>0)
 										{
 											if(neie[k][i][m]+d[neioff-pnodesize+nein[k][i][m]]<d[neioff+i])
 												{
@@ -265,7 +257,6 @@ class PBellmanor:public algbase{
 								}
 								neioff+=pnodesize;
 							}
-							//dijkstra(s,s,d,p+off,neie[k],nein[k],neieid[k],esigns[k],nodenum,WD,ts,size);
 							for(int i=0;i<ters.size();i++)
 							{
 								//cout<<"fuckinggggggggggggggggggggggggggggggggggggggggggggggggggg "<<i<<endl;
@@ -302,6 +293,7 @@ class PBellmanor:public algbase{
 								}
 								cout<<endl;
 								cout<<"return "<<endl;*/
+								
 								Rout S(s,tt,id,min,offf,k);
 								result[y-1].push_back(S);
 							}
@@ -330,53 +322,61 @@ class PBellmanor:public algbase{
         }*/
         pair<int,vector<int>> tunel(int s,int t,int k,int m=0)
 		{
-        	vector<int>d(nodenum,INT_MAX);
-        	set<int>ts;
-        	s=s*NUT;
-        	ts.insert(t);
-        	int size=1;
+        	//cout<<"in tunel"<<endl;
         	memset(p,-1,nodenum*sizeof(int));
-			dijkstra(s,s,d,p,neie[k],nein[k],neieid[k],esigns[k],nodenum,WD,ts,size);
-			//cout<<"ppp"<<endl;
+        	vector<int>d(nodenum,INT_MAX/2);
+			int neioff=pnodesize;
+			d[s]=0;
+			for(int kk=1;kk<=WD;kk++)
+			{
+				for(int i=0;i<pnodesize;i++)
+				{
+					for(int m=0;m<nein[k][i].size();m++)
+					{
+						if(esigns[k][neieid[k][i][m]]>0)
+						{
+							if(neie[k][i][m]+d[neioff-pnodesize+nein[k][i][m]]<d[neioff+i])
+								{
+								 d[neioff+i]=neie[k][i][m]+d[neioff-pnodesize+nein[k][i][m]];
+								 p[neioff+i]=neieid[k][i][m];
+								}
+						}
+					}
+				}
+				neioff+=pnodesize;
+			}
+			//cout<<"good so for"<<endl;
 			vector<int>rout;
 			int hop=0;
 			int tt=t;
-			int min=INF;
+			int min=10000;
 			int prn=-1;
 			for(int i=1;i<W;i++)
 			{
-				if(d[tt*W+i]<min)
+				if(d[tt+i*pnodesize]<min)
 				{	
-					min=d[tt*W+i];
-					prn=tt*W+i;
+					min=d[tt+i*pnodesize];
+					prn=tt+i*pnodesize;
 				}
 			}
-			//cout<<"what fu"<<endl;
-			if(prn<0){
-				return make_pair(INF,rout);
-			}
-			if(prn>=0)
+			//cout<<"nothing wrong"<<endl;
+			if(prn<0)return make_pair(INF,rout);
+			int offf=prn-tt;
+			//cout<<"before ff is "<<prn<<" "<<tt<<offf<<endl;
+			int di=d[prn];
+			int node=tt;
+			while(node!=s)
 			{
-				while(prn!=s)
-				{
-					int eid=p[prn];
-					prn=edges[eid].s;
-					rout.push_back(eid);
-					if(m==0)
-					{
-						if(IFHOP<1)
-							esigns[k][eid]*=-1;
-						if(IFHOP==1)
-						{
-							eid=(eid/WD)*WD;
-							for(int j=0;j<WD;j++)
-								esigns[k][eid+j]*=-1;
-						}
-					}
-					hop++;
-				}
+				
+				int eid;
+				eid=p[node+offf];
+				//cout<<eid<<endl;
+				rout.push_back(eid);
+				//cout<<"offf is : "<<offf<<endl;
+				offf-=pnodesize;
+				node=edges[eid].s;
 			}
-			//cout<<"oooo"<<endl;
+			
 			return make_pair(min,rout);
 		}
         static bool compare(pair<int,int>&a,pair<int,int>&b)
@@ -598,14 +598,7 @@ class PBFSor:public algbase{
         	 		for(int i=0;i<rout.size();i++)
         	 			{
         					int eid=rout[i];
-        					if(IFHOP<1)
-        						esigns[k][eid]*=-1;
-        					if(IFHOP==1)
-        					{
-        						eid=(eid/WD)*WD;
-        						for(int j=0;j<WD;j++)
-        							esigns[k][eid+j]*=-1;
-        					}
+        					esigns[k][eid]*=-1;
         	 			}
         	 	};
         virtual vector<vector<Rout>> routalg(int s,int t,int bw){
