@@ -226,7 +226,7 @@ class Graph
 			else
 				result=router1.routalg(0,0,0);
 			time_t endro=clock();
-			cout<<"rout alg time: "<<endro-startro<<endl;
+			//cout<<"rout alg time: "<<endro-startro<<endl;
 			vector<vector<demand>>remain(PC,vector<demand>());
 			time_t starta=clock();
 			for(int k=0;k<PC;k++)
@@ -237,7 +237,7 @@ class Graph
 							ds[k][id].routid.push(make_pair(i,vv));
 					}
 			//cout<<"here!"<<endl;
-			cout<<result[0].size()<<" "<<result[1].size()<<endl;
+			//cout<<result[0].size()<<" "<<result[1].size()<<endl;
 			vector<priority_queue<pair<int,int>,vector<pair<int,int>>,paircomp>>dsque(2,priority_queue<pair<int,int>,vector<pair<int,int>>,paircomp>());
 			for(int k=0;k<PC;k++)
 					for(int i=0;i<ds[k].size();i++)
@@ -288,7 +288,6 @@ class Graph
 										eid=router2.p[node+offf];
 									else
 										eid=router1.p[node+offf];
-									//cout<<eid<<" ";
 									offf-=n;
 									if(esignes[ly][eid]<0)
 									{
@@ -306,7 +305,7 @@ class Graph
 												int eid=rout[i];
 												esignes[ly][eid]*=-1;
 										}
-								flag=1;//rout.size();
+								flag=rout.size();
 								nde.rout=rout;
 								nde.mark=ly;
 								nde.value=wv;
@@ -314,7 +313,6 @@ class Graph
 								break;
 						}
 						if(flag==0){
-								cout<<nde.id<<" "<<nde.s<<" "<<nde.t<<endl;
 								int nid=newid++;
 								demand dd(nde.s,nde.t,nid,nde.sert);
 								remain[k].push_back(dd);
@@ -323,7 +321,7 @@ class Graph
 				}
 			}
 		time_t enda=clock();
-		cout<<"alg time: "<<enda-mid<<endl;
+		//cout<<"alg time: "<<enda-mid<<endl;
 		timecount+=(enda-starty);
 		return remain;
 		}

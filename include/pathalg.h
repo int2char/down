@@ -303,7 +303,6 @@ class PBellmanor:public algbase{
         		//end=clock();
         		//cout<<"cpu time is: "<<end-start<<endl;
         		//cout<<"good sofor"<<endl;
-        		cout<<"return successful"<<endl;
         		return result;
 	 	}
         /*vector<vector<int>> allroutes(int k)

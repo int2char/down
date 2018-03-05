@@ -242,7 +242,7 @@ vector<vector<Rout>> Bellmanor::routalg(int s,int t,int bw)
 				count++;
 			}
 		}
-	cout<<"GPU time is : "<<end-start<<endl;
+	//cout<<"GPU time is : "<<end-start<<endl;
 	return result;
 };
 
