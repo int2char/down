@@ -487,6 +487,7 @@ class Graph
 												}
 											ds[y-1][i].mark=k;
 											ds[y-1][i].value=w;
+											//cout<<"w is"<<w<<endl;
 											addin.push_back(ds[y-1][i]);
 											flag=1;
 											break;
@@ -556,6 +557,7 @@ class Graph
             {
             	int s=edges[i].s;
             	int t=edges[i].t;
+		edges[i].w=(rand()%10+1);
             	near[s].push_back(edges[i].t);
             }
             vector<edge>redges;
@@ -566,17 +568,7 @@ class Graph
             vector<vector<int>>esigns(LY,vector<int>());
             for(int i=0;i<LY;i++)
             	for(int j=0;j<edges.size();j++)
-            	{
-            		
-            		int ran=rand()%100;
-            		if(ran<20)
-            			esigns[i].push_back(-1);
-            		else
-            			{
-            				esigns[i].push_back(rand()%10+1);
-            				//esigns[i][esigns[i].size()-1]=1;
-            			}
-            	}
+                  esigns[i].push_back(edges[i].w);		
             esignes=esigns;
             int W=WD+1;
             vector<vector<int>>nesigns(LY,vector<int>());
@@ -603,7 +595,7 @@ private:
     virtual void GenGraph(){
         int count = 0;
         set<pair<int, int>>flag;
-        double threhod = 6*n/((n-1));
+        double threhod = 5*n/((n-1));
         for (int i = 0; i <n; i++)
             for (int j =i+1; j<n;j++)
                 if (i != j)

@@ -30,7 +30,7 @@
 	#define IFHOP 0
 #endif
 #ifndef OBNUM
-	#define OBNUM 10
+	#define OBNUM 5000
 #endif
 
 #define PC 2
