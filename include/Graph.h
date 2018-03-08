@@ -205,9 +205,9 @@ class Graph
         vector<vector<demand>>greedy(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double &timecount)
 		{
             algbase&router=router2;
-        	time_t starty=clock();
+        	float starty=float(1000*clock())/ CLOCKS_PER_SEC;
         	vector<vector<Sot>>stpair=Getspair(ds);
-        	time_t startu=clock();
+        	//time_t startu=clock();
         	//cout<<"get pair: "<<startu-starty<<endl;
         	if(PARAL>0)
 			{router2.updatS(stpair);
@@ -217,18 +217,18 @@ class Graph
         		router1.updatS(stpair);
         		router1.updatE(esignes);
         	}
-			time_t endu=clock();
+			//time_t endu=clock();
 			//cout<<"updating time: "<<endu-startu<<endl;
-			time_t startro=clock();
+			//time_t startro=clock();
 			vector<vector<Rout>> result;
 			if(PARAL>0)
 				result=router2.routalg(0,0,0);
 			else
 				result=router1.routalg(0,0,0);
-			time_t endro=clock();
+			//time_t endro=clock();
 			//cout<<"rout alg time: "<<endro-startro<<endl;
 			vector<vector<demand>>remain(PC,vector<demand>());
-			time_t starta=clock();
+			//time_t starta=clock();
 			for(int k=0;k<PC;k++)
 					for(int i=0;i<result[k].size();i++)
 					{
@@ -253,7 +253,7 @@ class Graph
 											block.push_back(ds[k][i]);
 										}
 							}
-			time_t mid=clock();
+			//time_t mid=clock();
 			//cout<<"build queue: "<<mid-starta<<endl;
 			int count=0;
 			int sss=0;
@@ -320,8 +320,7 @@ class Graph
 						}
 				}
 			}
-		time_t enda=clock();
-		//cout<<"alg time: "<<enda-mid<<endl;
+		float enda=float(1000*clock())/ CLOCKS_PER_SEC;
 		timecount+=(enda-starty);
 		return remain;
 		}
@@ -339,8 +338,6 @@ class Graph
 			vector<demand>block;
 			vector<demand>addin;
 			double timecount=0;
-			//cout<<"wht"<<endl;
-			//cout<<"method is "<<METHOD<<endl;
 			if(METHOD==2)
 				sortadd(ds,addin,block,timecount);
 			if(METHOD==1)
@@ -350,7 +347,6 @@ class Graph
 				while(ds[0].size()>0||ds[1].size()>0)
 							ds=greedy(ds,addin,block,timecount);
 			}
-			//cout<<"asd"<<endl;
 			times.push_back(timecount);
 			int count=0;
 			int hops=0;
@@ -382,8 +378,8 @@ class Graph
         void serialadd(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double&timecount)
         {
         	//cout<<"aas"<<endl;
-        	time_t start=clock();
-			router1.updatE(esignes);
+        	float start=float(1000*clock())/ CLOCKS_PER_SEC;
+		router1.updatE(esignes);
         	vector<int>L(3,0);
         	L[0]=0;L[1]=LY1;L[2]=LY2+LY1;
         	for(int y=1;y<PC+1;y++)
@@ -407,6 +403,7 @@ class Graph
         							}
         						ds[y-1][i].mark=k;
         						ds[y-1][i].value=w;
+								router1.updatR(k,rout);
         						addin.push_back(ds[y-1][i]);
         						flag=1;
         						break;
@@ -415,15 +412,14 @@ class Graph
         				if(flag==0)block.push_back(ds[y-1][i]);
         			}
         		}
-        	time_t end=clock();
+        	float end=float(1000*clock())/ CLOCKS_PER_SEC;
+		cout<<"alg time is "<<end-start<<endl;
         	timecount+=end-start;	
-        	//cout<<"out"<<endl;
         }
         void sortadd(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double&timecount)
                {
-               	//cout<<"aas"<<endl;
-               	time_t start=clock();
-       			router1.updatE(esignes);
+                float start=float(1000*clock())/ CLOCKS_PER_SEC;
+		router1.updatE(esignes);
                	vector<int>L(3,0);
                	L[0]=0;L[1]=LY1;L[2]=LY2+LY1;
                	for(int y=0;y<PC;y++)
@@ -487,7 +483,7 @@ class Graph
 												}
 											ds[y-1][i].mark=k;
 											ds[y-1][i].value=w;
-											//cout<<"w is"<<w<<endl;
+											router1.updatR(k,rout);
 											addin.push_back(ds[y-1][i]);
 											flag=1;
 											break;
@@ -497,9 +493,9 @@ class Graph
                				if(flag==0)block.push_back(ds[y-1][i]);
                			}
                		}
-               	time_t end=clock();
-               	timecount+=end-start;	
-               	//cout<<"out"<<endl;
+               	float end=float(1000*clock())/ CLOCKS_PER_SEC;
+               	timecount+=end-start;		
+               	cout<<"time is "<<end-start<<endl;
                }
         virtual ~Graph(){ 
         };
@@ -595,7 +591,7 @@ private:
     virtual void GenGraph(){
         int count = 0;
         set<pair<int, int>>flag;
-        double threhod = 5*n/((n-1));
+        double threhod = 6*n/((n-1));
         for (int i = 0; i <n; i++)
             for (int j =i+1; j<n;j++)
                 if (i != j)

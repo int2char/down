@@ -3390,3 +3390,3607 @@ BFSor.cu(162): warning: variable "end" was set but never used
 
 BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
 
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+Bellmanor.cu(125): warning: variable "count" was declared but never referenced
+
+Bellmanor.cu(224): warning: variable "hop" was declared but never referenced
+
+Bellmanor.cu(237): warning: variable "offer" was declared but never referenced
+
+Bellmanor.cu(181): warning: variable "kk" was declared but never referenced
+
+Bellmanor.cu(182): warning: variable "start" was set but never used
+
+Bellmanor.cu(182): warning: variable "end" was set but never used
+
+Bellmanor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+
+./include/pathalg.h(145): warning: missing return statement at end of non-void function "algbase::tunel"
+
+./include/pathalg.h(196): warning: missing return statement at end of non-void function "PBellmanor::cutcake"
+
+./include/pathalg.h(281): warning: reference is to variable "i"
+(260): here -- under old for-init scoping rules it would have been variable "i"
+(268): here
+
+./include/pathalg.h(264): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(282): warning: variable "node" was declared but never referenced
+
+./include/pathalg.h(231): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(349): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(389): warning: missing return statement at end of non-void function "PBellmanor::prepush"
+
+./include/pathalg.h(447): warning: missing return statement at end of non-void function "Bellmanor::prepush"
+
+./include/pathalg.h(448): warning: missing return statement at end of non-void function "Bellmanor::cutcake"
+
+./include/pathalg.h(505): warning: missing return statement at end of non-void function "BFSor::prepush"
+
+./include/pathalg.h(506): warning: missing return statement at end of non-void function "BFSor::cutcake"
+
+./include/pathalg.h(544): warning: missing return statement at end of non-void function "PBFSor::cutcake"
+
+./include/pathalg.h(625): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(605): warning: variable "start" was set but never used
+
+./include/pathalg.h(605): warning: variable "end" was set but never used
+
+./include/pathalg.h(641): warning: variable "tnode" was declared but never referenced
+
+./include/pathalg.h(642): warning: variable "tv" was declared but never referenced
+
+./include/pathalg.h(650): warning: variable "hop" was declared but never referenced
+
+./include/pathalg.h(688): warning: missing return statement at end of non-void function "PBFSor::prepush"
+
+BFSor.cu(161): warning: variable "kk" was declared but never referenced
+
+BFSor.cu(162): warning: variable "start" was set but never used
+
+BFSor.cu(162): warning: variable "end" was set but never used
+
+BFSor.cu(5): warning: variable "WORK_SIZE" was declared but never referenced
+

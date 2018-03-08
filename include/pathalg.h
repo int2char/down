@@ -660,18 +660,6 @@ class PBFSor:public algbase{
 					int eid=p[prn];
 					rout.push_back(eid);
 					prn=edges[eid].s;
-					if(m==0)
-					{
-						if(IFHOP<1)
-							esigns[k][eid]*=-1;
-						if(IFHOP==1)
-						{
-							eid=(eid/WD)*WD;
-							for(int j=0;j<WD;j++)
-								esigns[k][eid+j]*=-1;
-						}
-					}
-					//cout<<eid<<" ";
 				}
 				//cout<<endl;
 			}
