@@ -161,6 +161,10 @@ class PBellmanor:public algbase{
 		vector<int>order;
 		vector<vector<vector<int>>>neie;
 		vector<vector<vector<int>>>nein;
+		vector<vector<vector<int>>>neieid;
+		vector<vector<vector<int>>>rneie;
+		vector<vector<vector<int>>>rnein;
+		vector<vector<vector<int>>>rneieid;
 		vector<vector<vector<int>>>neiw;
 		vector<int>esign;
 		vector<pair<int,int>>stes;
@@ -168,9 +172,8 @@ class PBellmanor:public algbase{
 		vector<vector<Sot>>stpairs;
 		vector<int>L;
 		//
-		vector<vector<vector<int>>>neieid;
 		vector<vector<int>>esigns;
-		
+		vector<int>Lmark;
 		PBellmanor():L(3,0){};
         virtual void updatE(vector<vector<int>>&_esigns){
         	esigns=_esigns;
@@ -219,6 +222,23 @@ class PBellmanor:public algbase{
 				nein.push_back(tmpn);
 				neieid.push_back(tmpeid);
 			}
+			for(int k=0;k<LY;k++)
+			{
+				vector<vector<int>>tmpn(pnodesize,vector<int>());
+				vector<vector<int>>tmpe(pnodesize,vector<int>());
+				vector<vector<int>>tmpeid(pnodesize,vector<int>());
+				for(int i=0;i<edges.size();i++)
+					{
+						int s=edges[i].s;
+						int t=edges[i].t;
+						tmpn[s].push_back(t);
+						tmpe[s].push_back(esigns[k][i]);
+						tmpeid[s].push_back(i);
+					}
+				rneie.push_back(tmpe);
+				rnein.push_back(tmpn);
+				rneieid.push_back(tmpeid);
+			}
 			p=new int[nodenum*LY*YE];
 
         }
@@ -239,7 +259,7 @@ class PBellmanor:public algbase{
 							int off=ncount*nodenum;
 							int neioff=pnodesize;
 							d[s]=0;
-							for(int kk=1;kk<=WD;kk++)
+							/*for(int kk=1;kk<=WD;kk++)
 							{
 								for(int i=0;i<pnodesize;i++)
 								{
@@ -256,7 +276,12 @@ class PBellmanor:public algbase{
 									}
 								}
 								neioff+=pnodesize;
-							}
+							}*/
+							//cout<<"cn you be"<<endl;
+							set<int>ss;
+							for(int i=0;i<ters.size();i++)
+								ss.insert(ters[i]);
+							dijkstra(s,d,p+off,rneie[k],rnein[k],rneieid[k],esigns[k],nodenum,pnodesize,WD,ss,ters.size());
 							for(int i=0;i<ters.size();i++)
 							{
 								//cout<<"fuckinggggggggggggggggggggggggggggggggggggggggggggggggggg "<<i<<endl;
@@ -321,12 +346,15 @@ class PBellmanor:public algbase{
         }*/
         pair<int,vector<int>> tunel(int s,int t,int k,int m=0)
 		{
-        	//cout<<"in tunel"<<endl;
         	memset(p,-1,nodenum*sizeof(int));
         	vector<int>d(nodenum,INT_MAX/2);
 			int neioff=pnodesize;
 			d[s]=0;
-			for(int kk=1;kk<=WD;kk++)
+			set<int>sets;
+			sets.insert(t);
+			//cout<<s<<" "<<t<<endl;
+			dijkstra(s,d,p,rneie[k],rnein[k],rneieid[k],esigns[k],nodenum,pnodesize,WD,sets,1);
+			/*for(int kk=1;kk<=WD;kk++)
 			{
 				for(int i=0;i<pnodesize;i++)
 				{
@@ -343,8 +371,7 @@ class PBellmanor:public algbase{
 					}
 				}
 				neioff+=pnodesize;
-			}
-			//cout<<"good so for"<<endl;
+			}*/
 			vector<int>rout;
 			int hop=0;
 			int tt=t;
@@ -364,6 +391,8 @@ class PBellmanor:public algbase{
 			//cout<<"before ff is "<<prn<<" "<<tt<<offf<<endl;
 			int di=d[prn];
 			int node=tt;
+			//cout<<"node is "<<node<<endl;
+			//cout<<"s is "<<s<<endl;
 			while(node!=s)
 			{
 				
@@ -374,8 +403,9 @@ class PBellmanor:public algbase{
 				//cout<<"offf is : "<<offf<<endl;
 				offf-=pnodesize;
 				node=edges[eid].s;
+				//cout<<"node is "<<edges[eid].s<<endl;
 			}
-			
+			//cout<<"return !!!"<<endl;
 			return make_pair(min,rout);
 		}
         static bool compare(pair<int,int>&a,pair<int,int>&b)
@@ -661,7 +691,6 @@ class PBFSor:public algbase{
 					rout.push_back(eid);
 					prn=edges[eid].s;
 				}
-				//cout<<endl;
 			}
 			return make_pair(d,rout);
 	 	}

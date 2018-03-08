@@ -107,6 +107,7 @@ class Graph
         	//cout<<"asd"<<endl;
         	for(int h=0;h<ADDNUM;h++)
         	{
+        		//cout<<"deleting.................... "<<current<<endl;
         		if(delevent[h].size()>0)
         		{
 					for(int i=0;i<delevent[h].size();i++)
@@ -142,9 +143,9 @@ class Graph
         	for(int i=0;i<blocks.size();i++)
         		cout<<blocks[i]<<" ";
         	cout<<endl;
-		for(int i=0;i<blocks.size();i++)
+        	for(int i=0;i<blocks.size();i++)
 			cout<<(double)blocks[i]/(double)tasksize[i]<<" ";
-		cout<<endl;
+        	cout<<endl;
         	for(int i=0;i<times.size();i++)
         	    cout<<times[i]<<" ";
         	cout<<endl;
@@ -288,7 +289,8 @@ class Graph
 										eid=router2.p[node+offf];
 									else
 										eid=router1.p[node+offf];
-									offf-=n;
+									if(IFHOP>0)
+										offf-=n;
 									if(esignes[ly][eid]<0)
 									{
 										ff=-1;
@@ -298,7 +300,6 @@ class Graph
 									rout.push_back(eid);
 									node=edges[eid].s;
 								}
-								//cout<<endl;
 								if(ff<0)continue;
 								for(int i=0;i<rout.size();i++)
 										{
@@ -321,6 +322,7 @@ class Graph
 				}
 			}
 		float enda=float(1000*clock())/ CLOCKS_PER_SEC;
+		//cout<<"time is: "<<enda-starty<<endl;
 		timecount+=(enda-starty);
 		return remain;
 		}
@@ -347,6 +349,7 @@ class Graph
 				while(ds[0].size()>0||ds[1].size()>0)
 							ds=greedy(ds,addin,block,timecount);
 			}
+			//cout<<"out method"<<endl;
 			times.push_back(timecount);
 			int count=0;
 			int hops=0;
@@ -369,10 +372,10 @@ class Graph
 			average.push_back((double)count/(double)addin.size());
 			averhops.push_back((double)hops/(double)addin.size());
 			blocks.push_back(block.size());
-			//cout<<"add in rout cost is "<<count<<endl;
-			//cout<<"add in is "<<addin.size()<<endl;
-			//cout<<"remain size"<<ds[0].size()+ds[1].size()<<endl;
-			//cout<<"block size "<<block.size()<<endl;
+			/*cout<<"add in rout cost is "<<count<<endl;
+			cout<<"add in is "<<addin.size()<<endl;
+			cout<<"remain size"<<ds[0].size()+ds[1].size()<<endl;
+			cout<<"block size "<<block.size()<<endl;*/
 			//cout<<"time is"<<end-start<<endl;
 		}
         void serialadd(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double&timecount)
@@ -413,13 +416,13 @@ class Graph
         			}
         		}
         	float end=float(1000*clock())/ CLOCKS_PER_SEC;
-		cout<<"alg time is "<<end-start<<endl;
+        	//cout<<"alg time is "<<end-start<<endl;
         	timecount+=end-start;	
         }
         void sortadd(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double&timecount)
                {
                 float start=float(1000*clock())/ CLOCKS_PER_SEC;
-		router1.updatE(esignes);
+                router1.updatE(esignes);
                	vector<int>L(3,0);
                	L[0]=0;L[1]=LY1;L[2]=LY2+LY1;
                	for(int y=0;y<PC;y++)
@@ -495,7 +498,7 @@ class Graph
                		}
                	float end=float(1000*clock())/ CLOCKS_PER_SEC;
                	timecount+=end-start;		
-               	cout<<"time is "<<end-start<<endl;
+               	//cout<<"time is "<<end-start<<endl;
                }
         virtual ~Graph(){ 
         };
@@ -553,7 +556,7 @@ class Graph
             {
             	int s=edges[i].s;
             	int t=edges[i].t;
-		edges[i].w=(rand()%10+1);
+            	edges[i].w=(rand()%10+1);
             	near[s].push_back(edges[i].t);
             }
             vector<edge>redges;

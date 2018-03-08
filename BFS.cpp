@@ -1,10 +1,5 @@
 #include"BFS.h"
 #include<iostream>
-struct ccmp{  
-    bool operator()(pair<int,int>& a,pair<int,int>& b){  
-        return a.second>b.second;    
-    }  
-}; 
 int BFS(int s,int t,vector<int>&dist,int*pre,vector<vector<int>>&neie,vector<vector<int>>&nein,vector<vector<int>>&neieid,vector<int>&esigns,set<int>sets,int size,int WD)
 {
 	int vflag=1;
