@@ -29,6 +29,14 @@ void Bellmanor::updatE(vector<vector<int>>&tesigns)
 		}
 	cudaMemcpy(dev_rudw,rudw,mm*LY*pnodesize*sizeof(int),cudaMemcpyHostToDevice);
 }
+
+__global__ void clean(int *d,int *p,int N)
+{
+	int i = threadIdx.x + blockIdx.x*blockDim.x;
+	if(i>=N)return;
+	d[i]=100000;
+	p[i]=-1;
+}
 void Bellmanor::updatS(vector<vector<Sot>>&stpair)
 {
 	L[0]=0;
@@ -39,8 +47,11 @@ void Bellmanor::updatS(vector<vector<Sot>>&stpair)
 	stps=stpair;
 	int count=0;
 	ncount=L[1]*S[0]+L[2]*S[1];
-	memset(d,1,ncount*nodenum*sizeof(int));
-	memset(p,-1,ncount*nodenum*sizeof(int));
+	//memset(d,1,ncount*nodenum*sizeof(int));
+	//memset(p,-1,ncount*nodenum*sizeof(int));
+	int bigN=ncount*nodenum;
+	clean<<<bigN/512+1,512,0>>>(dev_d,dev_p,bigN);
+	cudaMemcpy(d,dev_d,ncount*nodenum*sizeof(int),cudaMemcpyDeviceToHost);
 	for(int k=0;k<L[1];k++)
 		{
 		for(int j=0;j<stpair[0].size();j++)
@@ -60,7 +71,6 @@ void Bellmanor::updatS(vector<vector<Sot>>&stpair)
 	Size[0]=pnodesize*L[1]*S[0];
 	Size[1]=pnodesize*L[2]*S[1];
 	cudaMemcpy(dev_d,d,ncount*nodenum*sizeof(int),cudaMemcpyHostToDevice);
-	cudaMemcpy(dev_p,p,ncount*nodenum*sizeof(int),cudaMemcpyHostToDevice);
 }
 void Bellmanor::init(pair<vector<edge>,vector<vector<int>>>ext,vector<pair<int,int>>stpair,int _nodenum)
 {
@@ -175,6 +185,7 @@ __global__ void bellmandu(int *rudu,int*rudw,int *rid,int *d,int*p,int K,int PN,
 			d[i]=dm,p[i]=pm;
 		}
 }
+
 vector<vector<Rout>> Bellmanor::routalg(int s,int t,int bw)
 {
 	//cout<<"inbellman"<<endl;

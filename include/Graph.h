@@ -117,7 +117,7 @@ class Graph
 						esignes[k][eid]*=-1;
 
 					}
-					router2.updatE(esignes);
+					//router2.updatE(esignes);
 					router1.updatE(esignes);
         		}
         		if(addevent[current].first>0)
@@ -208,8 +208,8 @@ class Graph
             algbase&router=router2;
         	float starty=float(1000*clock())/ CLOCKS_PER_SEC;
         	vector<vector<Sot>>stpair=Getspair(ds);
-        	//time_t startu=clock();
-        	//cout<<"get pair: "<<startu-starty<<endl;
+        	time_t startu=clock();
+        	cout<<"get pair: "<<startu-starty<<endl;
         	if(PARAL>0)
 			{router2.updatS(stpair);
 			router2.updatE(esignes);}
@@ -218,18 +218,18 @@ class Graph
         		router1.updatS(stpair);
         		router1.updatE(esignes);
         	}
-			//time_t endu=clock();
-			//cout<<"updating time: "<<endu-startu<<endl;
-			//time_t startro=clock();
+			time_t endu=clock();
+			cout<<"updating time: "<<endu-startu<<endl;
+			time_t startro=clock();
 			vector<vector<Rout>> result;
 			if(PARAL>0)
 				result=router2.routalg(0,0,0);
 			else
 				result=router1.routalg(0,0,0);
-			//time_t endro=clock();
-			//cout<<"rout alg time: "<<endro-startro<<endl;
+			time_t endro=clock();
+			cout<<"rout alg time: "<<endro-startro<<endl;
 			vector<vector<demand>>remain(PC,vector<demand>());
-			//time_t starta=clock();
+			time_t starta=clock();
 			for(int k=0;k<PC;k++)
 					for(int i=0;i<result[k].size();i++)
 					{
@@ -254,8 +254,8 @@ class Graph
 											block.push_back(ds[k][i]);
 										}
 							}
-			//time_t mid=clock();
-			//cout<<"build queue: "<<mid-starta<<endl;
+			time_t mid=clock();
+			cout<<"build queue: "<<mid-starta<<endl;
 			int count=0;
 			int sss=0;
 			for(int k=0;k<PC;k++)
@@ -322,7 +322,7 @@ class Graph
 				}
 			}
 		float enda=float(1000*clock())/ CLOCKS_PER_SEC;
-		//cout<<"time is: "<<enda-starty<<endl;
+		cout<<"time is: "<<enda-starty<<endl;
 		timecount+=(enda-starty);
 		return remain;
 		}
@@ -576,8 +576,16 @@ class Graph
             int count=0;
             //cout<<"init ing"<<endl;
             edges=redges;
-            router2.init(make_pair(redges,esigns),stpair,n*W);
-            router1.init(make_pair(redges,esigns),stpair,n*W);
+            if(IFHOP>0)
+            {
+            	router2.init(make_pair(redges,esigns),stpair,n*W);
+            	router1.init(make_pair(redges,esigns),stpair,n*W);
+            }
+            else
+            {
+            	router2.init(make_pair(redges,esigns),stpair,n);
+            	router1.init(make_pair(redges,esigns),stpair,n);
+            }
            // cout<<"init end"<<endl;
             return make_pair(redges,esigns);
         };
