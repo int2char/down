@@ -36,7 +36,7 @@ __global__ void clean(int *d,int *p,int N)
 	if(i>=N)return;
 	d[i]=100000;
 	p[i]=-1;
-}
+};
 void Bellmanor::updatS(vector<vector<Sot>>&stpair)
 {
 	L[0]=0;
