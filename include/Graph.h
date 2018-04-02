@@ -5,7 +5,7 @@
 #include"pathalg.h"
 #include<set>
 #include<queue>
-#define MAXITER 10000
+#define MAXITER 1000000
 using namespace std;
 enum SPWAY {NORMAL,ROUTE,ROTATE,ROTATE_DELETE,PUSH};
 struct levelGraph {
@@ -77,10 +77,12 @@ class Graph
 		double RATIO;
 		vector<vector<int>>HDist;
 		vector<vector<int>>DDist;
+		int totaln;
         void run(float _ratio,float lambda,float MAXNUM,int _method,int _paral)
         {
         	
         	//cout<<"fic"<<endl;
+        	totaln=0;
 			RATIO=_ratio;
         	LAMBDA=lambda;
         	ADDNUM=MAXNUM;
@@ -96,8 +98,8 @@ class Graph
         	delevent=dd;
         	for(int i=0;i<ADDNUM;i++)
         	{
-        		double k=rand()%100;
-        		if(k/100<=RATIO)
+        		double k=rand()%10000;
+        		if(k/10000<=RATIO)
         			{
         				addevent[i].first=1;
         				addevent[i].second.first=rand()%10+10;
@@ -105,11 +107,16 @@ class Graph
         			}
         	}
         	//cout<<"asd"<<endl;
+        	//cout<<current<<endl;
+    		int tongj=0;
+
         	for(int h=0;h<ADDNUM;h++)
         	{
-        		//cout<<"deleting.................... "<<current<<endl;
         		if(delevent[h].size()>0)
         		{
+            		//cout<<"deleting.................... "<<current<<endl;
+            		//cout<<delevent[h].size()<<endl;
+            		tongj++;
 					for(int i=0;i<delevent[h].size();i++)
 					{
 						int eid=delevent[h][i].second;
@@ -118,7 +125,7 @@ class Graph
 
 					}
 					//router2.updatE(esignes);
-					router1.updatE(esignes);
+					//router1.updatE(esignes);
         		}
         		if(addevent[current].first>0)
         		{
@@ -128,6 +135,8 @@ class Graph
         		}
         		current++;
         	}
+        	//cout<<"&&&&&&&&&&&&&&&&&&&& "<<"tongji is:"<<tongj<<" "<<totaln<<endl;
+        	
         	//cout<<"kkkk"<<endl;
         	//cout<<"release: "<<release<<endl;
         	//cout<<"beasy: "<<busy<<endl;
@@ -208,8 +217,8 @@ class Graph
             algbase&router=router2;
         	float starty=float(1000*clock())/ CLOCKS_PER_SEC;
         	vector<vector<Sot>>stpair=Getspair(ds);
-        	time_t startu=clock();
-        	cout<<"get pair: "<<startu-starty<<endl;
+        	//time_t startu=clock();
+        	//cout<<"get pair: "<<startu-starty<<endl;
         	if(PARAL>0)
 			{router2.updatS(stpair);
 			router2.updatE(esignes);}
@@ -218,18 +227,18 @@ class Graph
         		router1.updatS(stpair);
         		router1.updatE(esignes);
         	}
-			time_t endu=clock();
-			cout<<"updating time: "<<endu-startu<<endl;
-			time_t startro=clock();
+			//time_t endu=clock();
+			//cout<<"updating time: "<<endu-startu<<endl;
+			//time_t startro=clock();
 			vector<vector<Rout>> result;
 			if(PARAL>0)
 				result=router2.routalg(0,0,0);
 			else
 				result=router1.routalg(0,0,0);
-			time_t endro=clock();
-			cout<<"rout alg time: "<<endro-startro<<endl;
+			//time_t endro=clock();
+			//cout<<"rout alg time: "<<endro-startro<<endl;
 			vector<vector<demand>>remain(PC,vector<demand>());
-			time_t starta=clock();
+			//time_t starta=clock();
 			for(int k=0;k<PC;k++)
 					for(int i=0;i<result[k].size();i++)
 					{
@@ -254,8 +263,8 @@ class Graph
 											block.push_back(ds[k][i]);
 										}
 							}
-			time_t mid=clock();
-			cout<<"build queue: "<<mid-starta<<endl;
+			//time_t mid=clock();
+			//cout<<"build queue: "<<mid-starta<<endl;
 			int count=0;
 			int sss=0;
 			for(int k=0;k<PC;k++)
@@ -322,7 +331,7 @@ class Graph
 				}
 			}
 		float enda=float(1000*clock())/ CLOCKS_PER_SEC;
-		cout<<"time is: "<<enda-starty<<endl;
+		//cout<<"time is: "<<enda-starty<<endl;
 		timecount+=(enda-starty);
 		return remain;
 		}
@@ -334,6 +343,7 @@ class Graph
         	//cout<<"fuck"<<endl;
         	tasknum.push_back(num1*DSIZE);
         	tasknum.push_back(num2*3*DSIZE);
+        	totaln+=num1*DSIZE+num2*3*DSIZE;
         	vector<vector<demand>>ds=Gendemand(tasknum);
         	int totalnum=tasknum[0]+tasknum[1];
         	tasksize.push_back(tasknum[0]+tasknum[1]);
@@ -365,17 +375,18 @@ class Graph
 				int serv=dd.sert;//randomExponential(LAMBDA);
 				if(serv+current+1<ADDNUM)
 					for(int h=0;h<dd.rout.size();h++)
+						{
 						delevent[serv+current+1].push_back(make_pair(dd.mark,dd.rout[h]));
+						}
 			}
-			//cout<<"what f2"<<endl;
 			//if(addin.size()==0)cout<<"what happend!"<<endl;
 			average.push_back((double)count/(double)addin.size());
 			averhops.push_back((double)hops/(double)addin.size());
 			blocks.push_back(block.size());
-			/*cout<<"add in rout cost is "<<count<<endl;
-			cout<<"add in is "<<addin.size()<<endl;
-			cout<<"remain size"<<ds[0].size()+ds[1].size()<<endl;
-			cout<<"block size "<<block.size()<<endl;*/
+			//cout<<"add in rout cost is "<<count<<endl;
+			//cout<<"add in is "<<addin.size()<<endl;
+			//cout<<"remain size"<<ds[0].size()+ds[1].size()<<endl;
+			//cout<<"block size "<<block.size()<<endl;
 			//cout<<"time is"<<end-start<<endl;
 		}
         void serialadd(vector<vector<demand>>&ds,vector<demand>&addin,vector<demand>&block,double&timecount)

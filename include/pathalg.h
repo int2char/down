@@ -24,13 +24,13 @@
 	#define DSIZE 20
 #endif
 #ifndef SERT
-	#define SERT 20
+	#define SERT 2000
 #endif
 #ifndef IFHOP
 	#define IFHOP 0
 #endif
 #ifndef OBNUM
-	#define OBNUM 5000
+	#define OBNUM 500000
 #endif
 
 #define PC 2
