@@ -21,25 +21,25 @@ int main(int args,char*arg[])
 			  case 'F':
 			  {
 					  cout<<"parall relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,0,1);
+					  g.run(0.0002,lambda,OBNUM,0,1);
 					  break;
 			  }
 			  case 'P':
 			  {
 					  cout<<"p relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,0,0);
+					  g.run(0.0002,lambda,OBNUM,0,0);
 					  break;
 			  }
 			  case 'S':
 			  {
 					  cout<<"s relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,1,0);
+					  g.run(0.0002,lambda,OBNUM,1,0);
 					  break;
 			  }
 			  case 'G':
 			  {
 					  cout<<"g relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,2,0);
+					  g.run(0.0002,lambda,OBNUM,2,0);
 					  break;
 			  }
 			  
@@ -57,25 +57,25 @@ int main(int args,char*arg[])
 			  case 'F':
 			  {
 					  cout<<"parall relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,0,1);
+					  g.run(0.0002,lambda,OBNUM,0,1);
 					  break;
 			  }
 			  case 'P':
 			  {
 					  cout<<"p relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,0,0);
+					  g.run(0.0002,lambda,OBNUM,0,0);
 					  break;
 			  }
 			  case 'S':
 			  {
 					  cout<<"s relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,1,0);
+					  g.run(0.0002,lambda,OBNUM,1,0);
 					  break;
 			  }
 			  case 'G':
 			  {
 					  cout<<"g relaize:"<<endl;
-					  g.run(0.002,lambda,OBNUM,2,0);
+					  g.run(0.0002,lambda,OBNUM,2,0);
 					  break;
 			  }
 			  

@@ -5,7 +5,7 @@
 #include"pathalg.h"
 #include<set>
 #include<queue>
-#define MAXITER 1000000
+#define MAXITER 10000000
 using namespace std;
 enum SPWAY {NORMAL,ROUTE,ROTATE,ROTATE_DELETE,PUSH};
 struct levelGraph {
@@ -98,8 +98,8 @@ class Graph
         	delevent=dd;
         	for(int i=0;i<ADDNUM;i++)
         	{
-        		double k=rand()%10000;
-        		if(k/10000<=RATIO)
+        		double k=rand()%500000;
+        		if(k/500000<=RATIO)
         			{
         				addevent[i].first=1;
         				addevent[i].second.first=rand()%10+10;
@@ -578,7 +578,7 @@ class Graph
             vector<vector<int>>esigns(LY,vector<int>());
             for(int i=0;i<LY;i++)
             	for(int j=0;j<edges.size();j++)
-                  esigns[i].push_back(edges[j].w);		
+                  esigns[i].push_back(edges[i].w);		
             esignes=esigns;
             int W=WD+1;
             vector<vector<int>>nesigns(LY,vector<int>());
