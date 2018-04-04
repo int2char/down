@@ -300,6 +300,7 @@ class PBellmanor:public algbase{
 										prn=tt+i*pnodesize;
 									}
 								}
+								//cout<<"min is "<<min<<endl;
 								if(prn<0)continue;
 								int offf=prn-tt+off;
 								int di=d[prn];
