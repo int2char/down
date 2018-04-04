@@ -442,9 +442,9 @@ class Graph
                		{
                			int s=ds[y][i].s;
                			int t=ds[y][i].t;
-						pair<int,vector<int>>dd=router1.tunel(s,t,L[y],1);
-       					ds[y][i].estimate=dd.first;
-       					ds[y][i].rout=dd.second;
+				pair<int,vector<int>>dd=router1.tunel(s,t,L[y],1);
+       				ds[y][i].estimate=dd.first;
+       				ds[y][i].rout=dd.second;
                		}
                	}
                	sort(ds[0].begin(),ds[0].end(),mmmp());
@@ -578,7 +578,7 @@ class Graph
             vector<vector<int>>esigns(LY,vector<int>());
             for(int i=0;i<LY;i++)
             	for(int j=0;j<edges.size();j++)
-                  esigns[i].push_back(edges[i].w);		
+                  esigns[i].push_back(edges[j].w);		
             esignes=esigns;
             int W=WD+1;
             vector<vector<int>>nesigns(LY,vector<int>());

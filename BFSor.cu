@@ -26,23 +26,12 @@ void BFSor::updatE(vector<vector<int>>&esigns)
 		for(int i=0;i<nodenum;i++)
 			for(int j=0;j<nein[i].size();j++)
 			{
-				/*if(k==21&&neie[i][j]==0)
-					{
-					cout<<"find it!!!!!!"<<endl;
-					cout<<"value is :"<<esigns[k][neie[i][j]]<<endl;
-					}*/
 				if(esigns[k][neie[i][j]]<0)
 					te[count]=-1;
 				else
 					te[count]=nein[i][j];
-				/*if(k==21&&neie[i][j]==0)
-				{
-					cout<<"mao:"<<st[count]<<" "<<te[count]<<endl;
-					cout<<"stid:"<<stid[count]<<endl;
-				}*/
 			    count++;
 			}
-	//cout<<"after:"<<st[count]<<" "<<te[count]<<endl;
 	cudaMemcpy(dev_te,te,LY*edges.size()*sizeof(int),cudaMemcpyHostToDevice);
 };
 void BFSor::updatS(vector<vector<Sot>>&stpair)
@@ -206,18 +195,6 @@ vector<vector<Rout>> BFSor::routalg(int s,int t,int bw)
 					int t=ters[i];
 					int ds=d[off+t];
 					if(ds>WD)continue;
-					//cout<<k<<" "<<l<<" "<<s<<" "<<t<<" "<<ds<<" : "<<d[s+off]<<" "<<s+off<<endl;
-					/*int prn=off+t;
-					int hop=0;
-					vector<int>rout;
-					while(prn!=s+off)
-					{
-						int eid=p[prn];
-						rout.push_back(eid);
-						prn=edges[eid].s+off;
-						//cout<<prn<<endl;
-						hop++;
-					}*/
 					Rout S(s,t,id,ds,off,k);
 					result[y-1].push_back(S);			
 				}
