@@ -578,7 +578,7 @@ class Graph
             vector<vector<int>>esigns(LY,vector<int>());
             for(int i=0;i<LY;i++)
             	for(int j=0;j<edges.size();j++)
-                  esigns[i].push_back(edges[i].w);		
+                  esigns[i].push_back(edges[j].w);		
             esignes=esigns;
             int W=WD+1;
             vector<vector<int>>nesigns(LY,vector<int>());
