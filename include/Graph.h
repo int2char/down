@@ -244,19 +244,19 @@ class Graph
 					{
 							int id=result[k][i].id;
 							int vv=result[k][i].di;
-							ds[k][id].routid.push(make_pair(i,vv));
+							int hh=result[k][i].other;
+							ds[k][id].routid.push(make_pair(i,make_pair(vv,hh)));
 					}
 			//cout<<"here!"<<endl;
 			//cout<<result[0].size()<<" "<<result[1].size()<<endl;
-			vector<priority_queue<pair<int,int>,vector<pair<int,int>>,paircomp>>dsque(2,priority_queue<pair<int,int>,vector<pair<int,int>>,paircomp>());
+			vector<priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,paircomp>>dsque(2,priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,paircomp>());
 			for(int k=0;k<PC;k++)
 					for(int i=0;i<ds[k].size();i++)
 							{
 									if(!ds[k][i].routid.empty())
 											{
-											  int vv=ds[k][i].routid.top().second;
-											  dsque[k].push(make_pair(i,vv));
-											  
+											  pair<int,pair<int,int>>v=ds[k][i].routid.top();
+											  dsque[k].push(make_pair(i,v.second));
 											}
 									else
 										{
@@ -273,18 +273,20 @@ class Graph
 				while(!dsque[k].empty())
 				{
 						count++;
-						pair<int,int> pp=dsque[k].top();
+						pair<int,pair<int,int>> pp=dsque[k].top();
 						demand nde=ds[k][pp.first];
 						dsque[k].pop();
 						int flag=0;
 						while(!nde.routid.empty())
 						{
+								
 								int id=nde.routid.top().first;
 								nde.routid.pop();
 								Rout RR=result[k][id];
 								int ly=RR.ly;
 								int offf=RR.offf;
-								int v=RR.di;	
+								int v=RR.di;
+								//cout<<RR.di<<" "<<RR.other<<endl;
 								int s=RR.s;
 								int node=RR.t;
 								vector<int>rout;

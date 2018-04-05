@@ -55,8 +55,9 @@ struct Rout{
 	int di;
 	int offf;
 	int ly;
+	int other;
 	//vector<int>routes;
-	Rout(int _s,int _t,int _id,int _hops,int _offf,int _ly):s(_s),t(_t),id(_id),di(_hops),offf(_offf),ly(_ly){};
+	Rout(int _s,int _t,int _id,int _hops,int _offf,int _ly,int _other):s(_s),t(_t),id(_id),di(_hops),offf(_offf),ly(_ly),other(_other){};
 };
 struct Sot{
 	int s;
@@ -79,21 +80,23 @@ class comp{
 	public:
 	bool operator()(Rout& r1,Rout& r2)
 	{
-		if(r1.di>r2.di)
-			return true;
-		return false;
+		if(r1.di==r2.di)
+			return r1.other>r2.other;
+		return r1.di>r2.di;
 	};
 };
 class paircomp{
 public:
-	bool operator()(pair<int,int>&a,pair<int,int>&b)
+	bool operator()(pair<int,pair<int,int>>&a,pair<int,pair<int,int>>&b)
 	{
-		return a.second>b.second;
+		if(a.second.first==b.second.first)
+			return a.second.second>b.second.second;
+		return a.second.first>b.second.first;
 	}
 };
 struct demand{
 	priority_queue<Rout,vector<Rout>,comp> backroute;
-	priority_queue<pair<int,int>,vector<pair<int,int>>,paircomp>routid;
+	priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,paircomp>routid;
 	//vector<pair<int,int>>routid;
 	int id;
 	int value;
@@ -290,6 +293,7 @@ class PBellmanor:public algbase{
 								int tt=ters[i];
 								int min=10000;
 								int prn=-1;
+								int hh=-1;
 								for(int i=1;i<W;i++)
 								{
 									if(d[tt+i*pnodesize]<min)
@@ -297,6 +301,7 @@ class PBellmanor:public algbase{
 										min=d[tt+i*pnodesize];
 										//cout<<tt+i*pnodesize<<endl;
 										//cout<<"min min is "<<" "<<off<<" "<<off+tt+i*pnodesize<<" "<<p[off+tt+i*pnodesize]<<endl;
+										hh=i;
 										prn=tt+i*pnodesize;
 									}
 								}
@@ -320,7 +325,7 @@ class PBellmanor:public algbase{
 								cout<<endl;
 								cout<<"return "<<endl;*/
 								
-								Rout S(s,tt,id,min,offf,k);
+								Rout S(s,tt,id,min,offf,k,hh);
 								result[y-1].push_back(S);
 							}
 							ncount++;
@@ -660,7 +665,7 @@ class PBFSor:public algbase{
 								if(dist[prn]>WD)
 									continue;
 								int id=stpairs[y-1][l].mmpid[ters[i]];
-								Rout S(s,ters[i],id,d,off,k);
+								Rout S(s,ters[i],id,d,off,k,d);
 								result[y-1].push_back(S);
 							}
 					  ncount++;

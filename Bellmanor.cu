@@ -236,18 +236,20 @@ vector<vector<Rout>> Bellmanor::routalg(int s,int t,int bw)
 					int tt=ters[i];
 					int min=10000;
 					int prn=-1;
+					int hh=-1;
 					for(int i=1;i<W;i++)
 						{
 						if(d[offf+tt+i*pnodesize]<min)
 							{	
 								min=d[offf+tt+i*pnodesize];
 								prn=offf+tt+i*pnodesize;
+								hh=i;
 							}
 						}
 					int offf=prn-tt;
 					int offer=offf;
 					if(prn<0)continue;
-					Rout S(s,tt,id,min,offf,k);
+					Rout S(s,tt,id,min,offf,k,hh);
 					result[y-1].push_back(S);
 				}
 				count++;

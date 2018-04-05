@@ -195,7 +195,7 @@ vector<vector<Rout>> BFSor::routalg(int s,int t,int bw)
 					int t=ters[i];
 					int ds=d[off+t];
 					if(ds>WD)continue;
-					Rout S(s,t,id,ds,off,k);
+					Rout S(s,t,id,ds,off,k,ds);
 					result[y-1].push_back(S);			
 				}
 				count++;
