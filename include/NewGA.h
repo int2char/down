@@ -90,26 +90,26 @@ class NewGA
 			vector<vector<pair<int,int>>>epath(EDge,vector<pair<int,int>>());
 			map<pair<int,int>,vector<int>>pathe;
 			vector<vector<double>>x(ser.size(),vector<double>());
-
 			vector<vector<double>>cc(ser.size(),vector<double>());
 			vector<double>y(ser.size(),0);
 			vector<vector<double>>spy(ser.size(),vector<double>());
 			vector<vector<double>>overtime(ser.size(),std::vector<double>());
 			map<pair<int,int>,double>wsigu;
+			map<pair<int,pair<int,int>>,double>overo;
 			vector<double> tsum(ser.size(),-1e10);
 			double alpha=4;
-			double q=0.9;
+			double q=0.95;
 			std::vector<double>keep(ser.size(),1000);
 			cout<<"asd"<<endl;
 			_PathSets[111]=_PathSets[0];
 			for(int i=0;i<ser.size();i++)
 			{
 				double as=0;
-				int num=min(_PathSets[i].num,5);
+				int num=min(_PathSets[i].num,20);
 				//cout<<_PathSets[i].num<<endl;
 				for(int jj=0;jj<num;jj++)
 					{
-						int j=jj;//rand()%(_PathSets[i].num);
+						int j=rand()%(_PathSets[i].num);
 						//cout<<j<<endl;
 						if(_PathSets[i].Pathset[j][0]>-1)
 							{
@@ -141,7 +141,8 @@ class NewGA
 			double bestv=-INT_MAX/2;
 			int count=0;
 			double tt=1;
-			double beta=0.5;
+			double beta=0.05;
+			double gama=0.05;
 			int counter=0;
 			for(int t=0;t<100000;t++)
 			{
@@ -172,22 +173,32 @@ class NewGA
 					{
 							if(esigxt[i]-capacity[i]>0)
 								{
-									tu[i]=u[i]+(0.1)*u[i]*(esigxt[i]-capacity[i])/capacity[i];
 									counter++;
-									if(counter>1000)
-										if(beta>0.01)beta=beta/(1000.0);
-								}
+									if(counter>200000&&beta>0){
+										beta=0;//beta/1000;
+										gama*=2;
+										cout<<"&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"<<endl;
+									}
+									tu[i]=u[i]+gama*u[i]*(esigxt[i]-capacity[i])/capacity[i];
+							}	
 							else
 								tu[i]=u[i]+beta*u[i]*(esigxt[i]-capacity[i])/capacity[i];
 							for(int h=0;h<ser.size();h++)
 								tspu[h][ids[h]][i]=spu[h][ids[h]][i]+(0.05)*spu[h][ids[h]][i]*(esigxt[i]-capacity[i])/capacity[i];
 							if(esigxt[i]-capacity[i]>0)
 								for(int k=0;k<epath[i].size();k++)
-										flag[epath[i][k].first]+=x[epath[i][k].first][ids[epath[i][k].first]]/capacity[i];
+										{
+											flag[epath[i][k].first]+=x[epath[i][k].first][ids[epath[i][k].first]]/capacity[i];
+											overo[make_pair(i,epath[i][k])]+=1;
+											//sigu[epath[i][k]]+=tu[i];
+										}
 					}
 				for(int i=0;i<EDge;i++)
-					for(int j=0;j<epath[i].size();j++)
-						sigu[epath[i][j]]+=tu[i];
+					{
+						for(int j=0;j<epath[i].size();j++)
+							sigu[epath[i][j]]+=tu[i];
+
+					}
 				//cout<<"after u"<<endl;
 				for(int i=0;i<ser.size();i++)
 				{
@@ -261,9 +272,9 @@ class NewGA
 								{
 									int a=epath[i][k].first;
 									int b=epath[i][k].second;
-									if(a==92)
-										if(x[a][b]>0)
-											cout<<"************ "<<a<<" "<<b<<" "<<y[a]<<" "<<ty[a]<<" "<<x[a][b]<<" "<<wsigu[epath[i][k]]<<" "<<sigu[epath[i][k]]<<" "<<tx[a][b]<<endl;
+									//if(a==92)
+										//if(x[a][b]>0)
+											//cout<<"************ "<<a<<" "<<b<<" "<<y[a]<<" "<<ty[a]<<" "<<x[a][b]<<" "<<wsigu[epath[i][k]]<<" "<<sigu[epath[i][k]]<<" "<<tx[a][b]<<endl;
 								}
 							overflow++;
 						}
@@ -284,8 +295,8 @@ class NewGA
 				}
 				//if(count>200)break;
 				//cout<<"^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"<<endl
-				cout<<"obj is: "<<overflow<<" "<<toto<<" "<<objective<<" "<<counter<<endl;
-			
+				cout<<"obj is: "<<overflow<<" "<<counter<<" "<<toto<<" "<<objective<<" "<<counter<<endl;
+				//if(bestv>-0.007)beta=0;
 
 				//cout<<"obj is: "<<objective<<endl;
 			}
