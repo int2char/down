@@ -430,7 +430,8 @@ void inline GA_Serial(Graph &G, vector<service>&ser,ofstream&outfile)
 	taskPath*Path = new taskPath[Task];
 	GetPath(G,Path);
 	NewGA Gs(G);
-	Gs.GAsearch(ser,Path,outfile);
+	Gs.GAsearch(ser,Path);
+	//Gs.GAsearch(ser,Path,ids);
 	delete[]Path;
 }
 void inline Cplexsolve(Graph &G, vector<service>&ser,ofstream&outfile)
