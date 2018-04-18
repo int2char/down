@@ -25,7 +25,7 @@ graph dependent*/
 		#define GANOEX -1
 	#endif
 	#ifndef INPUTFILE
-		#define INPUTFILE "../result/100/0/"
+		#define INPUTFILE "./"
 	#endif
 	#ifndef EXPIRE
 		#define EXPIRE 600000

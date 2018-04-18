@@ -429,8 +429,18 @@ void inline GA_Serial(Graph &G, vector<service>&ser,ofstream&outfile)
 	int edge =G.m;
 	taskPath*Path = new taskPath[Task];
 	GetPath(G,Path);
+	vector<service> eser;
+  	for(int i=0;i<ser.size();i++)
+  	if(Path[i].num>=10)
+  		eser.push_back(ser[i]);
+  	taskPath*ePath = new taskPath[eser.size()];
+  	int c=0;
+  	for(int i=0;i<ser.size();i++)
+  		if(Path[i].num>=10)
+  			ePath[c++]=Path[i];
+
 	NewGA Gs(G);
-	Gs.GAsearch(ser,Path);
+	Gs.GAsearch(eser,ePath);
 	//Gs.GAsearch(ser,Path,ids);
 	delete[]Path;
 }
@@ -462,7 +472,6 @@ int main(int args,char*arg[])
    std::vector<service> ser;
    Graph G=ReadFile(n,m,ser);
    totaldemand = 0;
-   ChangDmand(ser);
    for (int i = 0; i < ser.size(); i++)
 	   totaldemand += ser[i].d;
   cout << "total demand:" << totaldemand << endl;
@@ -475,29 +484,14 @@ int main(int args,char*arg[])
   cout<<"GRPHTYPE:"<<GRAPHTYPE<<endl;
   cout<<"capacity:"<<CAPACITY<<endl;
   ofstream outfile(INFOFILE,ios::app);
-  vector<vector<int>>mind(G.n,vector<int>(G.n,10000));
-  for(int i=0;i<G.n;i++)
-  	puredijkstra(&G,i,mind);
   for(int i=0;i<args;i++)
   {
 	  switch (arg[i][0])
 	  {
-	  	  case 'L':
-	  		  {Lag_Parrel(G,ser,mind,outfile);break;}
-	  	  case 'S':
-	  		  {Lag_Serial(G,ser,mind,outfile);break;}
 	  	  case 'G':
 	  		  {GA_Parrel(G,ser,outfile);break;}
 	  	  case 'T':
 	  	  	  {GA_Serial(G,ser,outfile);break;}
-	  	  case 'C':
-	  	  	  {Cplexsolve(G,ser,outfile);break;}
-	  	  case'J':
-	  	  {
-	  	  	cout<<"checkingasasasdsa "<<endl;
-	  	  	Pathcheck(G,ser);
-	  	  	break;
-	  	  }
 	  	  
 	  }
   }
